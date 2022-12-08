@@ -2,6 +2,9 @@ package com.cooksys.quiz_api;
 
 import java.util.Arrays;
 
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
 import com.cooksys.quiz_api.entities.Answer;
 import com.cooksys.quiz_api.entities.Question;
 import com.cooksys.quiz_api.entities.Quiz;
@@ -9,10 +12,6 @@ import com.cooksys.quiz_api.repositories.AnswerRepository;
 import com.cooksys.quiz_api.repositories.QuestionRepository;
 import com.cooksys.quiz_api.repositories.QuizRepository;
 
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
-
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Component
